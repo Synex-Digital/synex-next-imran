@@ -1,0 +1,181 @@
+You are a senior product strategist, UI/UX director, and full-stack Next.js architect.
+
+Your task is to create the complete planning documentation for a new website for:
+
+Brand: Synex Digital  
+Business type: Custom software engineering / digital agency  
+Primary goal: Design first, then develop after the design system and page plans are finalized.
+
+The website must use:
+
+- Latest Next.js App Router
+- Tailwind CSS
+- MySQL database
+- Cal.com for booking
+- Component-based architecture
+- Page-based folder naming
+- Ready SQL/database schema is in the folder `synex-next-imran.sql`
+- All image placeholders must use 1:1 square format across all pages
+
+Brand style:
+
+- Primary color: #4555fd
+- Prefer blue-themed gradients
+- Modern AI-focused design language
+- Premium, futuristic, clean, conversion-focused
+- Use animations, hover effects, click interactions, scroll effects, micro-interactions, and subtle motion
+- Design should feel suitable for an advanced software engineering agency
+
+Pages to plan:
+
+- Home
+- About
+- Services
+- Technology
+- Industry
+- Case Studies
+- Blog
+- Events
+- Career
+- Contact
+- Privacy Policy
+- Terms of Service
+- Any additional useful pages you recommend
+
+Main workflow:
+
+First, create a root-level `prd.md` file.
+
+The `prd.md` must include:
+
+1. Project overview
+2. Business goals
+3. Target audience
+4. Website objectives
+5. Brand direction
+6. Visual design system
+7. Color system using #4555fd and gradient variations
+8. Typography recommendations
+9. Layout principles
+10. Animation and interaction principles
+11. Component system strategy
+12. Folder structure recommendation
+13. Tech stack explanation
+14. Database integration planning
+15. Cal.com booking integration plan
+16. SEO strategy
+17. Accessibility requirements
+18. Performance requirements
+19. Responsive design requirements
+20. Security considerations
+21. Design-first workflow
+22. Development-phase workflow
+23. Instructions for how future page markdown files should be used by the AI agent
+
+After creating `prd.md`, create a dedicated markdown instruction file for each page.
+
+Example:
+
+- `home.md`
+- `about.md`
+- `services.md`
+- `technology.md`
+- `industry.md`
+- `case-studies.md`
+- `blog.md`
+- `events.md`
+- `career.md`
+- `contact.md`
+- `privacy-policy.md`
+- `terms-of-service.md`
+
+Each page markdown file must include:
+
+1. Page purpose
+2. Target user intent
+3. Recommended route
+4. Page sections
+5. Section-by-section content guidance
+6. Suggested UI components
+7. Animation and interaction guidance
+8. Image usage guidance using 1:1 square images
+9. CTA strategy
+10. SEO metadata suggestions
+11. Database content requirements, if applicable
+12. Responsive design behavior
+13. Development notes for Next.js and Tailwind
+14. Reusable components needed for the page
+
+Also create these additional planning files:
+
+- `style-guide.md`
+- `component-system.md`
+- `folder-structure.md`
+- `database-integration.md`
+- `development-phase.md`
+- `cal-booking-integration.md`
+- `seo-plan.md`
+
+Important development structure rules:
+
+Use a clean component system.
+
+Recommend folders such as:
+
+```txt
+/app
+  /(site)
+    /home
+    /about
+    /services
+    /technology
+    /industry
+    /case-studies
+    /blog
+    /events
+    /career
+    /contact
+    /privacy-policy
+    /terms-of-service
+
+/components
+  /layout
+  /sections
+  /ui
+  /cards
+  /forms
+  /animations
+  /navigation
+
+/lib
+  /db
+  /cal
+  /utils
+  /seo
+
+/styles
+/content
+/docs
+/md
+  prd.md
+  style-guide.md
+  component-system.md
+  folder-structure.md
+  database-integration.md
+  development-phase.md
+  cal-booking-integration.md
+  seo-plan.md
+
+  /pages
+    home.md
+    about.md
+    services.md
+    technology.md
+    industry.md
+    case-studies.md
+    blog.md
+    events.md
+    career.md
+    contact.md
+    privacy-policy.md
+    terms-of-service.md
